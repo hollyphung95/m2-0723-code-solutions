@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Carousel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="tabbed-views">
+        <div class="buttons-container">
+          <button id="left">&lt;</button>
+          <button id="right">&gt;</button>
+        </div>
+
+        <div class="view-container">
+          <div class="view" data-view="bulbasaur">
+            <img class="shield" src="images/001.png" alt="bulbasaur" />
+          </div>
+          <div class="view hidden" data-view="charmander">
+            <img class="shield" src="images/004.png" alt="charmander" />
+          </div>
+          <div class="view hidden" data-view="squirtle">
+            <img class="shield" src="images/007.png" alt="squirtle" />
+          </div>
+          <div class="view hidden" data-view="pikachu">
+            <img class="shield" src="images/025.png" alt="pikachu" />
+          </div>
+          <div class="view hidden" data-view="jigglypuff">
+            <img class="shield" src="images/039.png" alt="jigglypuff" />
+          </div>
+        </div>
+
+        <div class="tab-container">
+          <div class="tab active" data-view="bulbasaur">
+            <i class="fa-regular fa-circle" style="color: #000000"></i>
+          </div>
+          <div class="tab" data-view="charmander">
+            <i class="fa-regular fa-circle" style="color: #000000"></i>
+          </div>
+          <div class="tab" data-view="squirtle">
+            <i class="fa-regular fa-circle" style="color: #000000"></i>
+          </div>
+          <div class="tab" data-view="pikachu">
+            <i class="fa-regular fa-circle" style="color: #000000"></i>
+          </div>
+          <div class="tab" data-view="jigglypuff">
+            <i class="fa-regular fa-circle" style="color: #000000"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
